@@ -6,9 +6,7 @@
 </head>
 <body>
     <header>
-        <div id="brandname">
             Air Quality Index Prediction
-        </div>
         <h2>Air Quality Index Prediction</h2>
     </header>
     
@@ -18,7 +16,7 @@
         <table>
             <tbody>
                 <th>Air Quality Index</th>
-                {# here we iterate over item in our list#}
+                {# here we iterate over item in our list #}
                 {% for item in prediction %}
                     <tr><td>{{item}}</td></tr>
                 {% endfor %}
